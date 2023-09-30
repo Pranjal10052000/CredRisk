@@ -8,11 +8,16 @@ The intention of this project was to identify the best classification model and 
 We used the following steps to identify and correct or remove errors, inconsistencies, and inaccuracies in a dataset in-order to improve its quality and usefulness:
 The data sets for year 2020-2021 are sourced from the following API’s:
 
-• https://resources.lendingclub.com/LoanStats_2021Q1.csv.zip 
-• https://resources.lendingclub.com/LoanStats_2021Q2.csv.zip 
-• https://resources.lendingclub.com/LoanStats_2021Q3.csv.zip 
-• https://resources.lendingclub.com/LoanStats_2021Q4.csv.zip 
+• https://resources.lendingclub.com/LoanStats_2021Q1.csv.zip
+
+• https://resources.lendingclub.com/LoanStats_2021Q2.csv.zip
+
+• https://resources.lendingclub.com/LoanStats_2021Q3.csv.zip
+
+• https://resources.lendingclub.com/LoanStats_2021Q4.csv.zip
+
 • https://resources.lendingclub.com/LoanStats_2020Q4.csv.zip
+
 This data set contains 110048 instances. There are 143 attributes in total, with 1 target attribute, 'loan status'. There are 107 numerical attributes and 37 categorical attributes. For analysis, the data must be cleaned.
 For data cleaning:
 • All the rows and columns which had all its values null were removed
